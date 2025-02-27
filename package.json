@@ -1,0 +1,21 @@
+{
+  "name": "telegram-test-bot",
+  "version": "1.0.0",
+  "description": "Educational test management bot for teachers and students",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "docx": "^9.2.0",
+    "dotenv": "^16.4.1",
+    "moment": "^2.30.1",
+    "mongodb": "^6.3.0",
+    "telegraf": "^4.15.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
